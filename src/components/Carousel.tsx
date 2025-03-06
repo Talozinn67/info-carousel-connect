@@ -9,12 +9,12 @@ const slides = [
     description: "Defendendo seus direitos com dedicação e profissionalismo"
   },
   {
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1920",
+    image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1920",
     title: "Experiência Comprovada",
     description: "Anos de experiência em casos complexos"
   },
   {
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1920",
+    image: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?q=80&w=1920",
     title: "Compromisso com Resultados",
     description: "Focados em alcançar os melhores resultados para nossos clientes"
   }
@@ -58,12 +58,14 @@ const Carousel = () => {
       <button
         onClick={prev}
         className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 p-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition-colors"
+        aria-label="Previous slide"
       >
         <ChevronLeft className="w-6 h-6 text-white" />
       </button>
       <button
         onClick={next}
         className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 p-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition-colors"
+        aria-label="Next slide"
       >
         <ChevronRight className="w-6 h-6 text-white" />
       </button>

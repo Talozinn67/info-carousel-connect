@@ -1,4 +1,5 @@
 
+import React from "react";
 import Carousel from "@/components/Carousel";
 import { Phone, Mail, MapPin } from "lucide-react";
 
